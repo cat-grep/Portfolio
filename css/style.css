@@ -1,0 +1,137 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #777;
+    border-radius: 0;
+}
+
+.navbar-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d9ad77;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #777;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #d9ad77;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/branding-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #333;
+    text-shadow: #ffffff 1.5px 1.5px 1px;
+    padding: 5%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #d9ad77;
+}
+
+/*** Basic Text Styles ***/
+
+#headshot {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #777;
+}
+
+a:hover {
+    color: #d9ad77;
+}
+
+.container{
+    padding:25px 0;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f3f3f3;
+    color: #242424;
+}
